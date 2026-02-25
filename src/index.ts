@@ -3,4 +3,4 @@ function hello(nama: String): string{
 }
 const mahasiswa ="Kharizma";
 const umur: number = 15;
-console.log(hello(mahasiswa));
+console.log(hello(mahasiswa, umur));
