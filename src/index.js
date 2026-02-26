@@ -1,7 +1,10 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-function hello(nama) {
-    return `Selamat Datang ${nama} di PWL`;
+function hello(nama, umur, UmurTahunDepan) {
+    return 'Halo ' + nama + ', tahun depan umurmu ' + UmurTahunDepan + ' tahun ';
 }
-console.log(hello(`rizma`));
+let nama = "Kharizma";
+let umur = 15;
+let UmurTahunDepan = umur + 1;
+console.log(hello(nama, umur, UmurTahunDepan));
 //# sourceMappingURL=index.js.map
